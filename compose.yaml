@@ -1,0 +1,6 @@
+name: homeserver
+include:
+  - ./homeassistant/compose.yaml
+  - ./netbird/compose.yaml
+  - ./nextcloud/compose.yaml
+  - ./npm/compose.yaml
